@@ -12,6 +12,12 @@ label {
   display: block;
   margin-bottom: 5px; 
 }
+h2{
+    color: var(--hckgreen);
+}
+span{
+    color: var(--hckgreen);
+}
 input, select{
     padding:  0.5rem 0.2rem 0.5rem 1rem;
     border-radius: 7px;
