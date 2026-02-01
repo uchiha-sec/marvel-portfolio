@@ -50,7 +50,6 @@ nav {
     border-bottom: 0.5px solid var(--grey);
 }
 
-
 nav ul {
     list-style: none;
     display: flex;
@@ -67,7 +66,24 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
-
+/* hover */
+.button :hover{
+    background-color: var(--hckgreen);
+    border-radius: 12px;
+    opacity: 0.5s;
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+    border: none;
+}
+.input-submit :hover{
+    background-color: transparent;
+    border-radius: 12px;
+    opacity: 0.5s;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    color: var(--white);
+    border: 1px solid var(--hckgreen);
+}
 /* hamburger */
 
 .hamburger {
@@ -135,10 +151,12 @@ h3{
     align-items: center;
     gap: 1rem;
     padding: 1.5rem 24rem 1.5rem 2rem;
+    transition: 0.5s;
 }
 .button a{
     text-decoration: none;
 }
+
 .connect{
     margin-top: 3rem;
     line-height: 3rem;
